@@ -1,0 +1,31 @@
+{
+  "name": "event-planner-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "date-fns": "^4.1.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "helmet": "^8.0.0",
+    "http-errors": "~1.6.3",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.9.16",
+    "passport": "^0.7.0",
+    "passport-github": "^1.1.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  }
+}

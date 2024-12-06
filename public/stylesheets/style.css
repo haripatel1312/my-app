@@ -1,0 +1,399 @@
+/* Header Styling */
+body {
+  background: linear-gradient(135deg, #00c853, #2196f3); /* Green to Blue gradient */
+  color: #fff; /* Text color white for contrast */
+  height: 120vh; /* Make the body take up the full height of the viewport */
+}
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-logo {
+  width: 300px; /* Adjust size for larger logo */
+  height: auto;
+}
+
+.nav-link {
+  color: white !important; /* Ensure text is white */
+}
+
+.nav-item {
+  margin-left: 150px; /* Add some spacing between nav items */
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+/* Center the Navbar Items */
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Social media icons */
+.ml-auto {
+  display: flex;
+  justify-content: center;
+}
+
+.ml-auto a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.ml-auto a:hover {
+  color: #f8f9fa;
+  transform: scale(1.2); /* Makes the icons grow on hover */
+}
+
+.ml-auto a:active {
+  transform: scale(1); /* Resets the scaling when clicked */
+}
+
+/* Footer Styling */
+/* Footer Styling */
+.footer {
+  background-color: #000; /* Black background */
+  padding: 15px 0;
+}
+
+.footer p {
+  margin: 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #fff; /* White text on hover */
+}
+
+
+/* Ensure proper alignment */
+.text-md-right {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .footer ul {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .text-md-right {
+    text-align: center;
+  }
+}
+
+/* Footer Social Media Icons */
+/* Full screen gradient background */
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+.container-fluid {
+  height: 100vh; /* Ensures full height of the viewport */
+}
+
+/* Style for the profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Headline styling */
+.headline h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.headline p {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(135deg, #00c853, #2196f3); /* Green to Blue Gradient */
+  font-family: 'Arial', sans-serif;
+  color: black; /* Set default text color to white for contrast */
+}
+
+.profile-img-container img {
+  border: 4px solid #007bff;
+}
+
+.headline h1 {
+  color: #343a40;
+}
+
+.headline p {
+  color: #6c757d;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card {
+  background-color: white; /* Slightly transparent white background for the card */
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+}
+
+.card-body {
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.lead {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.text-highlight {
+  color: #00c853; /* Green color for name */
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container-fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ /* CSS to resize all images to a consistent size */
+ .project-image {
+  width: 100%;
+  max-width: 300px; /* Adjust width */
+  height: 200px;    /* Adjust height */
+  object-fit: cover; /* Ensures aspect ratio is preserved */
+  margin: 0 auto;    /* Centers the image */
+}
+
+/* Custom styles for the Contact Form */
+body {
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+p.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.custom-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0.2rem;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 220px ;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #343a40;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button.btn-primary {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+a.btn-secondary {
+  width: 100%;
+  max-width: 150px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #6c757d;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.btn-secondary:hover {
+  background-color: #e2e6ea;
+  color: #495057;
+}

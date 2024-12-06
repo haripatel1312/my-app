@@ -1,0 +1,30 @@
+<h1>Welcome, {{user.name}}!</h1>
+<p>This is your dashboard. You can manage your events here.</p>
+
+<h2>My Events</h2>
+
+<!-- Button Group for Create and View Events -->
+<div class="btn-group mb-3">
+  <a href="/events/create" class="btn btn-primary">Create New Event</a>
+  <a href="/events" class="btn btn-secondary">View All Events</a>
+</div>
+
+<ul>
+  {{#each events}}
+    <li>
+      <a href="/events/{{this._id}}">{{this.name}}</a>
+      <a href="/events/{{this._id}}/edit" class="btn btn-warning">Edit</a>
+      <form action="/events/{{this._id}}/delete" method="POST" style="display: inline;" onsubmit="return confirm('Are you sure you want to delete this event?');">
+        <button type="submit" class="btn btn-danger">Delete</button>
+      </form>
+    </li>
+  {{/each}}
+</ul>
+
+{{#if success_msg}}
+  <div class="alert alert-success">{{success_msg}}</div>
+{{/if}}
+
+{{#if error_msg}}
+  <div class="alert alert-danger">{{error_msg}}</div>
+{{/if}}

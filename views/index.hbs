@@ -1,0 +1,15 @@
+<div class="text-center">
+  <h1>Welcome to Event Planner</h1>
+  <h2>Discover and organize events around the world.</h2>
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <h1>{{message}}</h1>
+  <p>Plan and manage your events with ease.</p>
+  {{#if user}}
+    <!-- If the user is logged in, show the "View Events" button -->
+    <a href="/auth/dashboard" class="btn btn-primary">View Events</a>
+  {{else}}
+    <!-- If the user is not logged in, show the "Login" and "Sign Up" buttons -->
+    <a href="/auth/login" class="btn btn-primary">Login</a>
+    <a href="/auth/register" class="btn btn-secondary">Sign Up</a>
+  {{/if}}
+</div>
